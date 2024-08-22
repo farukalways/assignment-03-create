@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Rinterio</title>
+  <!-- fontawsome  -->
+  <script src="https://kit.fontawesome.com/27e6000101.js" crossorigin="anonymous"></script>
+   
+  <!-- tailwind and daisyui  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header-bg sm:w-5/6 sm:m-auto md:mb-20" >
+    <nav class=" py-4 md:py-8 flex items-center justify-between">
+      <!-- website main logo  -->
+      <label class="flex items-center gap-2  " for=""><i class="fa-solid fa-arrow-right w-6 h-6 inline-flex items-center justify-center bg-[#ABEF5F] rounded-full -rotate-45 "></i><h2 class="font-bold">Rinterio</h2></label>
+      <!-- navber link area  -->
+      <ul class="inline-flex items-center justify-center gap-6">
+        <li class="font-bold">Home</li>
+        <li class="text-gray-500">Services</li>
+        <li class="text-gray-500">Potfolio</li>
+        <li class="text-gray-500">Blog</li>
+        <li class="text-gray-500">Contact us</li>
+      </ul>
+      <!-- search icon area  -->
+      <div class="inline-flex items-center justify-center gap-5">
+        <i class="fa-solid fa-magnifying-glass w-9 h-9 inline-flex items-center justify-center text-white bg-slate-500 rounded-full"></i>
+        <i class="fa-solid fa-cart-shopping w-9 h-9 inline-flex items-center justify-center text-white bg-slate-500 rounded-full"></i>
+         <div class=" bg-[#ABEF5F] flex items-center justify-center p-3 rounded-full gap-2">
+          <h4 class="font-bold">Book Consult</h4>
+          <i class="fa-solid fa-arrow-right w-6 h-6 flex items-center justify-center text-white bg-black rounded-full -rotate-45  "></i>
+         </div>
+
+      </div>
+
+
+
+
+
+
+    </nav>
+    <!-- banner content start  -->
+    <div class="text-center">
+      <img class="w-2/4 mx-auto" src="./assets/banner.png" alt="">
+      <h1 class="text-6xl font-bold my-7"> A barn house of this design has a striking appearance</h1>
+      <p class="text-[#494949] my-7"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+      <div class=" bg-[#9ada51af] inline-flex items-center justify-center p-3 rounded-full gap-2">
+        <h4 class="font-bold">View Details</h4>
+        <i class="fa-solid fa-arrow-right w-6 h-6 flex items-center justify-center text-black bg-[#75c717] rounded-full -rotate-45  "></i>
+       </div>
+    </div>
+
+
+
+  </header>
+
+  <main>
+    <!-- We design thoughtful, liveable spaces -->
+    <section class="bg-gray-200 w-full h-full">
+       <div class="sm:w-5/6 sm:m-auto">
+        <div class=" md:py-20 flex items-center justify-center gap-4">
+
+         <div class=" w-2/4 relative">
+            <img class=" absolute -top-14 -left-14" src="./assets/Vector.png" alt="">
+            <button class="bg-white px-3 py-2 rounded-full "><i class="fa-solid fa-arrow-right"></i> About us</button>
+            <h2 class="text-4xl font-bold py-3">We design thoughtful, liveable spaces</h2>
+            <p class="py-3">The barn house captivates with its blend of rustic charm and 
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+              
+            <div class="bg-white p-4 my-4 rounded-xl flex items-center justify-start gap-10 ">
+              <img src="./assets/commercial.png" alt="">
+              <div class="">
+                <h4 class="text-3xl font-bold py-2">Commercial</h4>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+            
+            <div class="bg-white p-4 rounded-xl flex items-center justify-start gap-10">
+              <img src="./assets/residential.png" alt="">
+              <div class="">
+                <h4 class="text-3xl font-bold py-2">Residential</h4>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>          
+          </div>
+
+        <div class=" w-2/4">
+          <img class="rounded-xl" src="./assets/Rectangle.png" alt="">
+        </div>
+        </div>
+        
+
+
+
+       </div>
+
+    </section>
+   
+
+
+
+
+
+
+  </main>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
