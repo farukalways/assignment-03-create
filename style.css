@@ -1,3 +1,8 @@
 .header-bg{
   background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+.background{
+  background-image: url(./assets/bg.jpg);
+  background-size: 100% 100%;
+
+}
